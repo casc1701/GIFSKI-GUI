@@ -4,7 +4,7 @@
 
 Transforme seus vídeos em GIFs otimizados com preview em tempo real, corte preciso e configurações avançadas — tudo com poucos cliques.
 
-![Preview da Interface](https://via.placeholder.com/800x450/1a1a1a/00ffaa?text=GIFSKI+GUI+Preview)
+![GIFSKI GUI - Interface Principal](https://github.com/casc1701/GIFSKI-GUI/blob/main/Screenshot_118.png?raw=true)
 
 ---
 
@@ -23,7 +23,7 @@ Transforme seus vídeos em GIFs otimizados com preview em tempo real, corte prec
 ---
 
 ## 📸 Capturas de Tela
-
+![GIFSKI GUI - Interface Principal](https://github.com/casc1701/GIFSKI-GUI/blob/main/Screenshot_120.png?raw=true)
 
 ---
 
@@ -36,3 +36,68 @@ Transforme seus vídeos em GIFs otimizados com preview em tempo real, corte prec
 2. Execute o programa:
    ```bash
    python gera_gif.py
+   
+3. Clique em "📄 Selecionar Vídeo (.mp4)"
+
+4. Ajuste as configurações nas abas (Corte & FPS, Qualidade, Dimensões)
+
+5. Clique em Preview
+
+6. Clique em "💾 Salvar GIF" quando estiver satisfeito
+
+
+
+## ⚙️ Configurações Salvas
+
+O programa lembra automaticamente:
+
+* FPS
+* Qualidades (Q, Motion, Lossy)
+* Skip frames
+* Dimensões e proporção
+* Opção --fast
+
+
+## 📋 Requisitos
+ 
+
+Python 3.8 ou superior
+
+Bibliotecas:
+ ```bash
+pip install customtkinter pillow
+```
+
+* ffmpeg e gifski (executáveis na mesma pasta ou no PATH)
+* https://https://gif.ski/
+* https://www.ffmpeg.org/
+
+
+
+## 🛠️ Instalação Rápida
+```bash
+git clone https://github.com/casc1701/gifski-gui.git
+```
+```bash
+cd gifski-gui
+```
+```bash
+pip install customtkinter pillow
+```
+```bash
+python gera_gif.py
+```
+
+## 📄 Licença
+Este projeto está licenciado sob a GNU 2.
+
+## 🙏 Agradecimentos
+
+* gifski por criar a melhor ferramenta de conversão para GIF
+* CustomTkinter pela bela interface
+* Comunidade Python
+* FFMPEG
+* Grok
+
+
+Feito com ❤️ por Cardoso & Grok, meu magnífico estagiário
