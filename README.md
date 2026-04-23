@@ -29,7 +29,7 @@ Transforme seus vídeos em GIFs otimizados com preview em tempo real, corte prec
 
 ## 🚀 Como Usar
 
-1. **Coloque os executáveis** na mesma pasta do programa:
+1. **Coloque os executáveis** na mesma pasta do programa, ou instale-os em outro lugar mas garanta que estão acessíveis via PATH:
    - `ffmpeg.exe`
    - `gifski.exe`
 
