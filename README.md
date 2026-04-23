@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # 🎥 GIFSKI GUI
 
 **Uma interface gráfica moderna, rápida e intuitiva** para criar GIFs de alta qualidade usando **gifski** + **ffmpeg**.
